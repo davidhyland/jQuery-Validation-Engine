@@ -9,7 +9,7 @@
 	else {
 		$.validationEngineLanguage.allRules["postcodeUK"] = {
 		        // UK zip codes
-		        "regex": /^([A-PR-UWYZ0-9][A-HK-Y0-9][AEHMNPRTVXY0-9]?[ABEHMNPRVWXY0-9]? {1,2}[0-9][ABD-HJLN-UW-Z]{2}|GIR 0AA)$/,
+		        "regex": /^([A-PR-UWYZ0-9][A-HK-Y0-9][AEHMNPRTVXY0-9]?[ABEHMNPRVWXY0-9]? {0,2}[0-9][ABD-HJLN-UW-Z]{2}|GIR 0AA)$/i,
 				"alertText": "* Invalid postcode"
 		};
 		$.validationEngineLanguage.allRules["postcodeUS"] = {
